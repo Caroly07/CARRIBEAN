@@ -52,6 +52,8 @@ The methodology has 6 phases, each producing a specific deliverable with a human
 
 **Add to an existing project (recommended):**
 
+> These commands work on macOS and Linux. On Windows, use Git Bash, WSL, or equivalent.
+
 ```bash
 # From your project's root directory (where your legacy code lives)
 git clone https://github.com/Burly-Mingo/modernization-kit.git /tmp/mod-kit

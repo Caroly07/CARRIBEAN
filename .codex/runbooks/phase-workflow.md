@@ -12,7 +12,7 @@ This workflow maps the Kiro-native process to Codex execution.
 ### Phase 1 — Codebase Analysis
 - Source material: `.kiro/specs/phase-1-codebase-analysis/*`
 - Output: `ASSESSMENT.md` per app + `CONSOLIDATED_ASSESSMENT.md`
-- Goal: produce factual architecture assessment and cross-application coupling analysis.
+- Goal: produce factual architecture assessment, 7 R's classification (Retain/Retire/Rehost/Replatform/Refactor/Rearchitect/Rebuild tagged [Tactical]/[Strategic]), and cross-application coupling analysis.
 
 ### Phase 2 — Pain Points
 - Source material: `.kiro/specs/phase-2-pain-points/*`
@@ -22,12 +22,12 @@ This workflow maps the Kiro-native process to Codex execution.
 ### Phase 3 — Target Architecture
 - Source material: `.kiro/specs/phase-3-target-architecture/*`
 - Output: `TARGET_ARCHITECTURE.md`
-- Goal: define future-state architecture, migration patterns, and buy-vs-build decisions.
+- Goal: rationalize the application landscape first (should apps be consolidated/retired?), then define future-state architecture with modern capabilities opportunity scan, buy-vs-build decisions, SEO/AI discoverability strategy, red team critique on every major decision, and [Tactical]/[Strategic] tags.
 
 ### Phase 4 — Modernization Plan
 - Source material: `.kiro/specs/phase-4-modernization-plan/*`
 - Output: `MODERNIZATION_PLAN.md`
-- Goal: sequence execution, estimate effort/cost, and define risks/mitigations.
+- Goal: sequence execution, estimate effort/cost with logistics multipliers scaled to org size (small 1.3-1.5x, mid 1.5-2x, enterprise 2-3x), and define risks/mitigations.
 
 ### Phase 5 — Supporting Docs
 - Source material: `.kiro/specs/phase-5-supporting-docs/*`
